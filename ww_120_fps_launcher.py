@@ -53,6 +53,7 @@ def update_db(db_directory):
 
     except:
         print('Make sure your LocalStorage is not read-only and the game is closed')
+        special_exit()
 
 def launch_game(game_directory):
     try:
